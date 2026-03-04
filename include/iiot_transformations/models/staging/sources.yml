@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: IIOT_FACTORY
+    description: The database containing the data extracted from the SMARD.API and the auto generated telemetry  data from faker
+    database: IIOT_FACTORY
+    schema: RAW
+    tables:
+      - name: raw_telemetry
+        description: Raw telemetry data generated from Faker(), One record per event.
+      - name: raw_energy
+        description: Raw Energy data extracted from SMARD.API, One record per electricity price/hour.

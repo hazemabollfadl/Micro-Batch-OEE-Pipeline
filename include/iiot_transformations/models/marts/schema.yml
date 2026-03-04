@@ -1,0 +1,30 @@
+version: 2
+models:
+  - name: dim_machine
+    description: "One row per unique machine and plant combination"
+    columns:
+      - name: machine_key
+        description: "The primary key for this dimension."
+        tests:
+          - unique
+          - not_null
+  - name: fact_telemetry
+    description: "Machine events joined with hourly energy prices."
+    columns:
+      - name: machine_key
+        description: "Foreign key pointing to dim_machine."
+        tests:
+          - relationships:
+              to: ref('dim_machine')
+              field: machine_key
+      - name: event_id
+        description: "Unique UUID machine event identifier"
+        tests:
+          - unique
+          - not_null
+      - name: operational_status
+        description: "The current status of the machine"
+        tests:
+          - accepted_values:
+              values: ["RUNNING", "IDLE", "MAINTENANCE", "ERROR"]
+              quote: true

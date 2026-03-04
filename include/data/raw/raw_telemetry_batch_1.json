@@ -1,15 +1,32 @@
 [
     {
-        "event_id": "39b2cbdf-36ff-4716-819f-cfe4644ce6ac",
-        "timestamp": "2026-01-05T22:07:21.605379",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-Kt-93",
+        "event_id": "d986b7cb-7ac6-41be-b6c2-e9bfff47482b",
+        "timestamp": "2026-01-01T11:06:40.474494",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 62.1,
+            "vibration_mm_s": 2.4,
+            "spindle_speed_rpm": 1550,
+            "power_draw_kw": 20.2
+        },
+        "production": {
+            "units_produced": 4,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "3e075eb9-8abe-4796-a16f-a7d839d40e33",
+        "timestamp": "2026-01-01T10:41:52.664224",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Qa-08",
         "operational_status": "MAINTENANCE",
         "sensors": {
-            "temperature_celsius": 62.4,
-            "vibration_mm_s": 4.2,
-            "spindle_speed_rpm": 850,
-            "power_draw_kw": 10.4
+            "temperature_celsius": 68.8,
+            "vibration_mm_s": 3.1,
+            "spindle_speed_rpm": 2000,
+            "power_draw_kw": 20.9
         },
         "production": {
             "units_produced": 8,
@@ -17,16 +34,84 @@
         }
     },
     {
-        "event_id": "1700e4ea-19eb-4a0e-81c7-18b6d535196c",
-        "timestamp": "2026-01-02T20:50:57.605837",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Ap-34",
+        "event_id": "e96b4828-0c18-4ae2-b046-d0be1bbca996",
+        "timestamp": "2026-01-06T09:27:42.366400",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 60.4,
+            "vibration_mm_s": 2.5,
+            "spindle_speed_rpm": 1950,
+            "power_draw_kw": 15.9
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "86b060c1-b3e9-45fa-a427-1d57f806b20a",
+        "timestamp": "2026-01-03T11:44:41.294165",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-OY-67",
         "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 62.6,
-            "vibration_mm_s": 2.9,
-            "spindle_speed_rpm": 1700,
-            "power_draw_kw": 16.8
+            "temperature_celsius": 65.5,
+            "vibration_mm_s": 1.3,
+            "spindle_speed_rpm": 2450,
+            "power_draw_kw": 19.8
+        },
+        "production": {
+            "units_produced": 8,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "859fba6e-b296-420b-b5b0-cba064f040f0",
+        "timestamp": "2026-01-01T12:17:57.578400",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 85.1,
+            "vibration_mm_s": 3.3,
+            "spindle_speed_rpm": 1250,
+            "power_draw_kw": 17.7
+        },
+        "production": {
+            "units_produced": 18,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "61117958-1d7c-438a-8902-530fb00cf1fd",
+        "timestamp": "2026-01-04T13:22:59.389889",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 76.7,
+            "vibration_mm_s": 1.9,
+            "spindle_speed_rpm": 2350,
+            "power_draw_kw": 18.6
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "a26da9d1-3343-4096-b64d-dee6a997dbd8",
+        "timestamp": "2026-01-02T18:26:38.864799",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 77.2,
+            "vibration_mm_s": 1.2,
+            "spindle_speed_rpm": 2050,
+            "power_draw_kw": 19.8
         },
         "production": {
             "units_produced": 15,
@@ -34,33 +119,33 @@
         }
     },
     {
-        "event_id": "29d366ff-5b1b-48df-819e-514694eec0a9",
-        "timestamp": "2026-01-01T07:28:22.533340",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "MAINTENANCE",
+        "event_id": "ca6a0431-cc80-4d93-8e9c-65afd4a0bcc6",
+        "timestamp": "2026-01-04T09:27:50.415386",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
         "sensors": {
-            "temperature_celsius": 80.3,
-            "vibration_mm_s": 2.6,
-            "spindle_speed_rpm": 1850,
-            "power_draw_kw": 24.5
+            "temperature_celsius": 71.4,
+            "vibration_mm_s": 2.4,
+            "spindle_speed_rpm": 1300,
+            "power_draw_kw": 14.2
         },
         "production": {
-            "units_produced": 12,
-            "defective_units": 0
+            "units_produced": 18,
+            "defective_units": 1
         }
     },
     {
-        "event_id": "279c780e-609a-4ecf-8f15-1155ca4d264e",
-        "timestamp": "2026-01-06T06:08:46.439397",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
+        "event_id": "ec92798a-13ab-47fa-98f4-453f68df3418",
+        "timestamp": "2026-01-05T19:21:56.757912",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 67.9,
-            "vibration_mm_s": 0.9,
-            "spindle_speed_rpm": 950,
-            "power_draw_kw": 21.4
+            "temperature_celsius": 87.2,
+            "vibration_mm_s": 3.7,
+            "spindle_speed_rpm": 2350,
+            "power_draw_kw": 24.2
         },
         "production": {
             "units_produced": 9,
@@ -68,16 +153,84 @@
         }
     },
     {
-        "event_id": "9cb33cda-e66d-43dd-9eca-36239d18099e",
-        "timestamp": "2026-01-05T09:26:08.621655",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Kt-93",
+        "event_id": "1fbcfc92-5acd-4c76-903b-62c257ca6451",
+        "timestamp": "2026-01-06T05:56:40.438267",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 68.7,
+            "vibration_mm_s": 4.6,
+            "spindle_speed_rpm": 2450,
+            "power_draw_kw": 17.3
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "ce18d74c-6846-4821-99c2-6946b568c69a",
+        "timestamp": "2026-01-03T09:17:20.884356",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-OY-67",
         "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 86.7,
-            "vibration_mm_s": 1.2,
-            "spindle_speed_rpm": 2100,
-            "power_draw_kw": 21.8
+            "temperature_celsius": 84.2,
+            "vibration_mm_s": 2.5,
+            "spindle_speed_rpm": 1750,
+            "power_draw_kw": 10.4
+        },
+        "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "b894bd92-07c8-4ae8-9a99-8295c40d5de0",
+        "timestamp": "2026-01-06T12:44:02.021034",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 85.9,
+            "vibration_mm_s": 4.2,
+            "spindle_speed_rpm": 1150,
+            "power_draw_kw": 14.3
+        },
+        "production": {
+            "units_produced": 20,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "e08085e8-82bf-4193-aa0d-06faddd8569c",
+        "timestamp": "2026-01-06T00:38:18.325810",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 82.2,
+            "vibration_mm_s": 2.8,
+            "spindle_speed_rpm": 800,
+            "power_draw_kw": 14.9
+        },
+        "production": {
+            "units_produced": 10,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "888e0fc5-36e1-4c07-957d-0e957d6635c3",
+        "timestamp": "2026-01-04T17:53:12.544713",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 82.7,
+            "vibration_mm_s": 1.9,
+            "spindle_speed_rpm": 2500,
+            "power_draw_kw": 12.3
         },
         "production": {
             "units_produced": 13,
@@ -85,15 +238,577 @@
         }
     },
     {
-        "event_id": "83f65239-bd1a-46db-ae48-1a0317b6bcdf",
-        "timestamp": "2026-01-05T19:38:05.941844",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Kt-93",
+        "event_id": "1d7fc6dd-cd30-4374-b6f6-efa1893c3640",
+        "timestamp": "2026-01-01T04:48:44.669820",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 85.2,
+            "vibration_mm_s": 4.9,
+            "spindle_speed_rpm": 1400,
+            "power_draw_kw": 20.1
+        },
+        "production": {
+            "units_produced": 7,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "a9a19630-6d80-4291-82ff-cd088706720f",
+        "timestamp": "2026-01-01T06:06:21.348576",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 88.5,
+            "vibration_mm_s": 1.7,
+            "spindle_speed_rpm": 1050,
+            "power_draw_kw": 16.2
+        },{
+       "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "977af01c-2efb-4306-ad49-ea9a3233caec",
+        "timestamp": "2026-01-04T18:53:44.286050",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 62.3,
+            "vibration_mm_s": 0.6,
+            "spindle_speed_rpm": 1850,
+            "power_draw_kw": 16.9
+        },
+        "production": {
+            "units_produced": 15,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "ab763773-d32c-4cbe-b501-972ebab387b0",
+        "timestamp": "2026-01-04T00:27:20.934201",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 62.3,
+            "vibration_mm_s": 4.7,
+            "spindle_speed_rpm": 2300,
+            "power_draw_kw": 14.0
+        },
+        "production": {
+            "units_produced": 20,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "46017124-ae51-4bfe-b78d-d7b5342df9ca",
+        "timestamp": "2026-01-03T04:34:35.513508",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 77.1,
+            "vibration_mm_s": 5.0,
+            "spindle_speed_rpm": 1650,
+            "power_draw_kw": 21.9
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "a88f97b4-ba2b-425c-b146-83dced8ee550",
+        "timestamp": "2026-01-02T00:07:18.026418",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 75.5,
+            "vibration_mm_s": 0.9,
+            "spindle_speed_rpm": 1150,
+            "power_draw_kw": 15.9
+        },
+        "production": {
+            "units_produced": 6,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "583654b0-ea75-492e-b144-67764a25c78a",
+        "timestamp": "2026-01-06T00:27:35.679414",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-OY-67",
         "operational_status": "RUNNING",
         "sensors": {
-            "temperature_celsius": 89.4,
+            "temperature_celsius": 69.6,
+            "vibration_mm_s": 2.6,
+            "spindle_speed_rpm": 2150,
+            "power_draw_kw": 14.9
+        },
+        "production": {
+            "units_produced": 14,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "f676bed9-9198-4fb6-aa65-0f45b138a4ff",
+        "timestamp": "2026-01-01T08:52:09.208114",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 64.6,
+            "vibration_mm_s": 4.9,
+            "spindle_speed_rpm": 1200,
+            "power_draw_kw": 22.3
+        },
+        "production": {
+            "units_produced": 10,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "2fa4e4e7-9c5b-4326-a0c9-df36883cfd8a",
+        "timestamp": "2026-01-06T11:08:09.114534",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 89.5,
+            "vibration_mm_s": 4.4,
+            "spindle_speed_rpm": 1250,
+            "power_draw_kw": 13.6
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "39483823-8015-465d-9c67-24de9dc86888",
+        "timestamp": "2026-01-04T19:09:22.953629",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 66.5,
+            "vibration_mm_s": 3.9,
+            "spindle_speed_rpm": 1550,
+            "power_draw_kw": 19.5
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "b75af346-9b5d-45f8-8f8a-9035af46d846",
+        "timestamp": "2026-01-01T21:45:13.840161",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 80.1,
+            "vibration_mm_s": 1.2,
+            "spindle_speed_rpm": 1750,
+            "power_draw_kw": 14.8
+        },
+        "production": {
+            "units_produced": 7,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "c6f7c4d3-f3d2-42ae-bd4a-e2d0383674bd",
+        "timestamp": "2026-01-01T15:56:58.321363",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 80.6,
+            "vibration_mm_s": 3.4,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 20.4
+        },
+        "production": {
+            "units_produced": 18,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "1c6bbc4f-cf5e-4b5c-90fc-b4c0a99eb748",
+        "timestamp": "2026-01-01T02:52:51.430305",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 68.5,
+            "vibration_mm_s": 3.3,
+            "spindle_speed_rpm": 950,
+            "power_draw_kw": 16.1
+        },
+        "production": {
+            "units_produced": 1,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "b14003cf-f27b-4621-a080-e35daa3416a6",
+        "timestamp": "2026-01-02T17:30:25.215282",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 70.7,
+            "vibration_mm_s": 2.6,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 14.2
+        },
+        "production": {
+            "units_produced": 1,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "eac06e03-a1a2-45e6-b67f-af451bc7c879",
+        "timestamp": "2026-01-06T21:31:06.185644",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 89.6,
             "vibration_mm_s": 2.4,
-            "spindle_speed_rpm": 2350,
+            "spindle_speed_rpm": 2500,
+            "power_draw_kw": 24.9
+        },
+        "production": {
+            "units_produced": 7,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "85ae0d19-3f1e-47a6-9401-5543d3c56712",
+        "timestamp": "2026-01-03T08:56:40.809414",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 79.9,
+            "vibration_mm_s": 4.5,
+            "spindle_speed_rpm": 1350,
+            "power_draw_kw": 14.1
+        },
+        "production": {
+            "units_produced": 13,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "9ab76fea-e4cf-4b7c-9ebb-e530cd130d77",
+        "timestamp": "2026-01-04T11:57:23.113508",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 62.7,
+            "vibration_mm_s": 3.7,
+            "spindle_speed_rpm": 1750,
+            "power_draw_kw": 11.4
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "db74079b-d871-4294-a9eb-5946c3ce432e",
+        "timestamp": "2026-01-02T03:29:51.710739",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 72.0,
+            "vibrati"spindle: 0.5,
+            "spindle_speed_rpm": 850,
+            "power_draw_kw": 24.3
+        },
+        "production": {
+            "units_produced": 8,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "c6e99d8d-157d-4de9-b899-21605d3f7e64",
+        "timestamp": "2026-01-01T06:54:05.126005",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 72.4,
+            "vibration_mm_s": 2.5,
+            "spindle_speed_rpm": 1450,
+            "power_draw_kw": 20.4
+        },
+        "production": {
+            "units_produced": 4,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "794b9ea7-1457-4333-bfc0-6ea848a7929a",
+        "timestamp": "2026-01-01T07:51:34.959556",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 67.2,
+            "vibration_mm_s": 1.8,
+            "spindle_speed_rpm": 2300,
+            "power_draw_kw": 11.6
+        },
+        "production": {
+            "units_produced": 2,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "01a14914-13d1-48be-96f3-fc54154a4828",
+        "timestamp": "2026-01-05T09:02:28.200501",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 60.5,
+            "vibration_mm_s": 1.3,
+            "spindle_speed_rpm": 1550,
+            "power_draw_kw": 18.1
+        },
+        "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "ab41e725-f3f5-4bbd-93ba-3752ba1f1964",
+        "timestamp": "2026-01-03T09:57:15.264222",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 72.7,
+            "vibration_mm_s": 0.6,
+            "spindle_speed_rpm": 2100,
+            "power_draw_kw": 22.2
+        },
+        "production": {
+            "units_produced": 20,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "ebd4fa92-24bd-4d52-a3a4-edeeb8c4a2ad",
+        "timestamp": "2026-01-05T03:14:59.333118",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 75.7,
+            "vibration_mm_s": 2.2,
+            "spindle_speed_rpm": 1650,
+            "power_draw_kw": 15.6
+        },
+        "production": {
+            "units_produced": 12,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "2cbdec57-f0cc-4d40-8f03-53edb6889582",
+        "timestamp": "2026-01-05T08:56:02.430044",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 72.8,
+            "vibration_mm_s": 3.3,
+            "spindle_speed_rpm": 1450,
+            "power_draw_kw": 22.7
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "42ecca13-8c23-4103-9acf-8995d71869a3",
+        "timestamp": "2026-01-05T17:36:01.329533",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 80.5,
+            "vibration_mm_s": 1.8,
+            "spindle_speed_rpm": 900,
+            "power_draw_kw": 21.8
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "cce260e0-fc59-408b-8e55-3f40aab89e11",
+        "timestamp": "2026-01-05T10:41:27.717379",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 87.4,
+            "vibration_mm_s": 4.0,
+            "spindle_speed_rpm": 2300,
+            "power_draw_kw": 24.2
+        },
+        "production": {
+            "units_produced": 11,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "d615562f-2199-4d57-982a-c7c98896c2a3",
+        "timestamp": "2026-01-02T14:04:57.772730",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 80.4,
+            "vibration_mm_s": 2.8,
+            "spindle_speed_rpm": 1350,
+            "power_draw_kw": 11.7
+        },
+        "production": {
+            "units_produced": 17,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "fe87478e-9c0d-46d7-87d4-ce2554e3f2af",
+        "timestamp": "2026-01-06T04:12:47.329156",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 81.4,
+            "vibration_mm_s": 4.5,
+            "spindle_speed_rpm": 900,
+            "power_draw_kw": 19.9
+        },
+        "production": {
+            "units_produced": 3,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "ec93e28b-40d4-4c93-aaa9-e69abf7f287d",
+        "timestamp": "2026-01-04T19:42:45.859737",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 61.7,
+            "vibration_mm_s": 1.5,
+            "spindle_speed_rpm": 1550,
+            "power_draw_kw": 11.7
+        },
+        "production": {
+            "units_produced": 8,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "11dac372-e6b6-413a-b548-91e7649fd39d",
+        "timestamp": "2026-01-01T00:19:25.057948",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 89.2,
+            "vibration_mm_s": 4.8,
+            "spindle_speed_rpm": 1800,
+            "power_draw_kw": 22.8
+        },
+        "production": {
+            "units_produced": 10,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "867cf5fa-fc40-4f26-a806-9633964d3071",
+        "timestamp": "2026-01-03T16:23:12.826262",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 86.7,
+            "vibration_mm_s": 2.5,
+            "spindle_speed_rpm": 2000,
+            "power_draw_kw": 17.0
+        },
+        "production": {
+            "units_produced": 15,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "682f3ac1-3b2b-49c5-a6f5-d8b8b1c1d6e8",
+        "timestamp": "2026-01-02T03:13:18.417244",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 72.4,
+            "vibration_mm_s": 4.6,
+            "spindle_speed_rpm": 1200,
+            "power_draw_kw": 14.9
+        },
+        "production": {
+            "units_produced": 18,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "0e95d2c4-f502-4082-9ae7-d046cbbb9038",
+        "timestamp": "2026-01-06T03:53:25.460951",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 68.4,
+            "vibration_mm_s": 4.8,
+            "spindle_speed_rpm": 1700,
+            "power_draw_kw": 11.2
+        },
+        "production": {
+            "units_produced": 18,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "807a714e-7f2a-48d3-9617-a52c9e3b851f",
+        "timestamp": "2026-01-05T16:55:36.858414",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+: {
+    "sensors": {
+            "temperature_celsius": 83.5,
+            "vibration_mm_s": 3.3,
+            "spindle_speed_rpm": 1750,
             "power_draw_kw": 22.3
         },
         "production": {
@@ -102,1206 +817,33 @@
         }
     },
     {
-        "event_id": "e7d9d426-3537-46fe-b15b-f66a4d8c72c2",
-        "timestamp": "2026-01-06T19:17:07.575740",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 80.6,
-            "vibration_mm_s": 2.4,
-            "spindle_speed_rpm": 900,
-            "power_draw_kw": 15.7
-        },
-        "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "fce8fcb0-9fd5-4e40-905c-8abd8a0edf5e",
-        "timestamp": "2026-01-01T14:05:38.029346",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 81.8,
-            "vibration_mm_s": 0.6,
-            "spindle_speed_rpm": 1500,
-            "power_draw_kw": 20.6
-        },
-        "production": {
-            "units_produced": 2,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "233e9ab1-73df-4cc6-8c6a-41444742473e",
-        "timestamp": "2026-01-05T12:28:54.540477",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 73.5,
-            "vibration_mm_s": 4.4,
-            "spindle_speed_rpm": 1150,
-            "power_draw_kw": 19.6
-        },
-        "production": {
-            "units_produced": 3,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "0e4f16fd-6fda-4dc2-8071-aa6da8e5fd9c",
-        "timestamp": "2026-01-01T07:48:09.548729",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 66.3,
-            "vibration_mm_s": 1.8,
-            "spindle_speed_rpm": 2250,
-            "power_draw_kw": 20.1
-        },
-        "production": {
-            "units_produced": 12,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "24f84fe6-c25c-4ef9-8b73-b1212737ec25",
-        "timestamp": "2026-01-04T09:40:43.548847",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 81.1,
-            "vibration_mm_s": 2.4,
-            "spindle_speed_rpm": 850,
-            "power_draw_kw": 18.3
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "dd86f719-4b29-4564-b0ae-e91fe4faff7b",
-        "timestamp": "2026-01-01T21:40:37.750902",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 67.7,
-            "vibration_mm_s": 0.6,
-            "spindle_speed_rpm": 2150,
-            "power_draw_kw": 18.2
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "67e2bbc0-1c99-4c0b-b1ec-94e1d0b27704",
-        "timestamp": "2026-01-01T21:02:09.681326",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 88.6,
-            "vibration_mm_s": 4.2,
-            "spindle_speed_rpm": 1150,
-            "power_draw_kw": 24.7
-        },
-        "production": {
-            "units_produced": 8,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "406a9a56-6d6a-49ea-9d4b-90dcd07248d1",
-        "timestamp": "2026-01-01T10:33:15.081704",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 85.5,
-            "vibration_mm_s": 4.4,
-            "spindle_speed_rpm": 1500,
-            "power_draw_kw": 22.0
-        },
-        "production": {
-            "units_produced": 7,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "903fa7a7-f5d8-4a4b-872b-b109f6ee097d",
-        "timestamp": "2026-01-03T08:37:51.967170",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "IDLE",
+        "event_id": "93b2947a-77cf-465a-9416-055ffc798da6",
+        "timestamp": "2026-01-03T19:05:58.206180",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "RUNNING",
         "sensors": {
             "temperature_celsius": 84.4,
-            "vibration_mm_s": 3.4,
-            "spindle_speed_rpm": 2100,
-            "power_draw_kw": 15.0
-        },
-        "production": {
-            "units_produced": 8,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "26c61c11-032d-473d-85cc-f3e8b4d01a49",
-        "timestamp": "2026-01-06T10:58:24.963945",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 76.4,
-            "vibration_mm_s": 4.6,
-            "spindle_speed_rpm": 950,
-            "power_draw_kw": 24.5
-        },
-        "production": {
-            "units_produced": 12,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "b42efdc1-e4a7-4ea9-9080-e5a04af13ff3",
-        "timestamp": "2026-01-05T07:14:15.835568",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 86.4,
-            "vibration_mm_s": 3.7,
-            "spindle_speed_rpm": 1900,
-            "power_draw_kw": 23.0
-        },
-        "production": {
-            "units_produced": 5,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "d8735750-77df-4dc3-aa27-71e57f7220f2",
-        "timestamp": "2026-01-01T03:03:12.163333",
-        "machine_id": "ID-7775891W",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 64.6,
-            "vibration_mm_s": 3.3,
-            "spindle_speed_rpm": 1750,
-            "power_draw_kw": 21.3
-        },
-        "production": {
-            "units_produced": 15,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "770d0273-7ca1-43ed-b95d-1739c13deda0",
-        "timestamp": "2026-01-05T23:05:57.997285",
-        "machine_id": "ID-7775891W",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 69.0,
-            "vibration_mm_s": 3.9,
-            "spindle_speed_rpm": 1300,
-            "power_draw_kw": 19.2
-        },
-        "production": {
-            "units_produced": 10,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "190542ba-587f-4961-8d35-55c84e6b5ea5",
-        "timestamp": "2026-01-02T16:31:47.360254",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 75.7,
-            "vibration_mm_s": 4.9,
-            "spindle_speed_rpm": 2300,
-            "power_draw_kw": 21.8
-        },
-        "production": {
-            "units_produced": 13,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "4c63bcdf-39a4-4f1a-b67d-fc0e1dc52812",
-        "timestamp": "2026-01-02T08:23:15.765558",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 83.9,
-            "vibration_mm_s": 3.2,
-            "spindle_speed_rpm": 1750,
-            "power_draw_kw": 16.6
-        },
-        "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "57dd5d2e-e58e-4d6d-985b-aab04f8c67ac",
-        "timestamp": "2026-01-03T16:05:41.567373",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 68.4,
-            "vibration_mm_s": 3.4,
-            "spindle_speed_rpm": 1100,
-            "power_draw_kw": 23.9
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "b335da3f-a4b0-4a6d-b773-92e242033bd1",
-        "timestamp": "2026-01-02T05:08:01.306415",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 64.0,
-            "vibration_mm_s": 2.1,
-            "spindle_speed_rpm": 2200,
-            "power_draw_kw": 24.1
-        },
-        "production": {
-            "units_produced": 7,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "5452767b-2436-4d04-8802-1f7d728012b8",
-        "timestamp": "2026-01-03T19:01:21.607075",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 79.3,
-            "vibration_mm_s": 0.7,
-            "spindle_speed_rpm": 2150,
-            "power_draw_kw": 13.3
-        },
-        "production": {
-            "units_produced": 12,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "1375e4c0-b583-416a-80a9-843319e5103d",
-        "timestamp": "2026-01-04T16:31:59.863098",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 87.0,
-            "vibration_mm_s": 2.3,
-            "spindle_speed_rpm": 1250,
-            "power_draw_kw": 21.7
-        },
-        "production": {
-            "units_produced": 17,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "04861a03-f084-400a-9b50-c721657319ca",
-        "timestamp": "2026-01-05T01:15:50.333491",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 85.4,
-            "vibration_mm_s": 4.4,
-            "spindle_speed_rpm": 1200,
-            "power_draw_kw": 22.8
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "6ebfc609-c9ed-46c6-b60b-9b9a3bcbbeba",
-        "timestamp": "2026-01-01T16:33:52.975611",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 68.4,
-            "vibration_mm_s": 3.3,
-            "spindle_speed_rpm": 1250,
-            "power_draw_kw": 13.4
-        },
-        "production": {
-            "units_produced": 19,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "ce0dbce2-3f72-47c9-878e-798139639597",
-        "timestamp": "2026-01-01T06:12:02.373810",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 84.8,
-            "vibration_mm_s": 1.6,
-            "spindle_speed_rpm": 1900,
-            "power_draw_kw": 24.8
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "2c38df47-2a2d-40b7-8255-d1e183e1fcea",
-        "timestamp": "2026-01-02T09:20:18.433717",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 67.7,
-            "vibration_mm_s": 2.6,
-            "spindle_speed_rpm": 1700,
-            "power_draw_kw": 21.2
-        },
-        "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "22c703fb-03f5-4dd5-8e47-e6fb21794346",
-        "timestamp": "2026-01-05T08:25:58.285494",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 84.3,
-            "vibration_mm_s": 0.7,
-            "spindle_speed_rpm": 1500,
-            "power_draw_kw": 23.2
-        },
-        "production": {
-            "units_produced": 7,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "682b095f-07fe-4cba-8dd3-f87d00be2808",
-        "timestamp": "2026-01-05T15:55:59.939470",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 75.6,
-            "vibration_mm_s": 3.4,
-            "spindle_speed_rpm": 1100,
-            "power_draw_kw": 11.2
-        },
-        "production": {
-            "units_produced": 17,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "87ac8384-d75b-4815-9664-1d145d03cae0",
-        "timestamp": "2026-01-04T04:45:18.712118",
-        "machine_id": "ID-7775891W",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 79.3,
-            "vibration_mm_s": 1.0,
-            "spindle_speed_rpm": 2100,
-            "power_draw_kw": 20.6
-        },
-        "production": {
-            "units_produced": 10,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "6845c8a8-a1e1-46d6-b702-aeb478c7b326",
-        "timestamp": "2026-01-03T21:50:56.822740",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 74.3,
-            "vibration_mm_s": 2.6,
-            "spindle_speed_rpm": 1350,
-            "power_draw_kw": 10.9
-        },
-        "production": {
-            "units_produced": 17,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "7ec1a202-81e4-479e-9516-e76bd0d7e18f",
-        "timestamp": "2026-01-05T08:32:43.771188",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 85.4,
-            "vibration_mm_s": 3.5,
-            "spindle_speed_rpm": 950,
-            "power_draw_kw": 10.3
-        },
-        "production": {
-            "units_produced": 19,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "d15e078d-183a-44fb-af5d-1dc77077e735",
-        "timestamp": "2026-01-04T04:47:37.643321",
-        "machine_id": "ID-7840041J",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 84.3,
-            "vibration_mm_s": 1.5,
-            "spindle_speed_rpm": 950,
-            "power_draw_kw": 12.0
-        },
-        "production": {
-            "units_produced": 7,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "2d57b6a5-142c-4ebd-b925-282d40a2ab7e",
-        "timestamp": "2026-01-02T20:38:18.064091",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 77.7,
-            "vibration_mm_s": 3.5,
-            "spindle_speed_rpm": 2350,
-            "power_draw_kw": 12.4
-        },
-        "production": {
-            "units_produced": 5,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "a7ecabce-f992-42ca-8011-77f21e491f0b",
-        "timestamp": "2026-01-02T00:56:04.019713",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 65.8,
-            "vibration_mm_s": 1.7,
-            "spindle_speed_rpm": 1300,
-            "power_draw_kw": 12.4
-        },
-        "production": {
-            "units_produced": 16,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "48d05812-52de-4ee0-b499-f7f64ec0d13f",
-        "timestamp": "2026-01-06T17:44:52.511377",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 76.7,
-            "vibration_mm_s": 2.5,
-            "spindle_speed_rpm": 2000,
-            "power_draw_kw": 11.6
-        },
-        "production": {
-            "units_produced": 13,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "4364bfdf-8aba-46e6-986a-ee3a5290c90f",
-        "timestamp": "2026-01-02T02:32:29.405842",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 72.0,
-            "vibration_mm_s": 3.8,
-            "spindle_speed_rpm": 1800,
-            "power_draw_kw": 11.9
-        },
-        "production": {
-            "units_produced": 6,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "836700d1-06b8-4033-b1ef-14d566f0a1ff",
-        "timestamp": "2026-01-05T09:34:29.802998",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 82.6,
-            "vibration_mm_s": 3.8,
-            "spindle_speed_rpm": 1600,
-            "power_draw_kw": 16.7
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "67ca1f79-e8fb-4b97-90e0-8d85d97a6e9f",
-        "timestamp": "2026-01-05T05:16:34.286730",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 89.1,
-            "vibration_mm_s": 4.8,
-            "spindle_speed_rpm": 2250,
-            "power_draw_kw": 22.0
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "dc1ddbd3-cbf2-4f61-a1e4-2438f4bec840",
-        "timestamp": "2026-01-03T09:15:41.508940",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 75.6,
-            "vibration_mm_s": 2.2,
-            "spindle_speed_rpm": 1850,
-            "power_draw_kw": 24.7
-        },
-        "production": {
-            "units_produced": 13,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "9056dbd6-6b2f-4967-b99d-1b1c505cb3b4",
-        "timestamp": "2026-01-06T23:12:54.793504",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 65.5,
-            "vibration_mm_s": 3.7,
-            "spindle_speed_rpm": 1250,
-            "power_draw_kw": 18.5
-        },
-        "production": {
-            "units_produced": 16,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "4b77ee7c-be8f-4d99-9180-faf95b167931",
-        "timestamp": "2026-01-01T12:24:48.167124",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 86.5,
-            "vibration_mm_s": 2.1,
-            "spindle_speed_rpm": 1800,
-            "power_draw_kw": 18.1
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "6b6c068d-18b2-49fc-a26e-5294d1567bb2",
-        "timestamp": "2026-01-04T00:24:33.280746",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 72.0,
-            "vibration_mm_s": 0.8,
-            "spindle_speed_rpm": 1700,
-            "power_draw_kw": 10.3
-        },
-        "production": {
-            "units_produced": 5,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "0136db2b-8470-40d4-bb05-6bf77d58b8ff",
-        "timestamp": "2026-01-04T00:41:26.477925",
-        "machine_id": "ID-7775891W",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 65.6,
-            "vibration_mm_s": 2.2,
-            "spindle_speed_rpm": 1400,
-            "power_draw_kw": 24.3
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "3d171be3-4ad2-492b-8044-6a34a0687ed4",
-        "timestamp": "2026-01-01T15:49:25.196296",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 83.8,
-            "vibration_mm_s": 4.3,
-            "spindle_speed_rpm": 1000,
-            "power_draw_kw": 13.3
-        },
-        "production": {
-            "units_produced": 18,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "493e5a60-2743-4324-831a-caeb80b702d5",
-        "timestamp": "2026-01-01T10:26:25.152294",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 69.5,
-            "vibration_mm_s": 4.7,
-            "spindle_speed_rpm": 1600,
-            "power_draw_kw": 14.5
-        },
-        "production": {
-            "units_produced": 6,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "38f8e83f-4b27-4bba-9334-6cc37d19eb59",
-        "timestamp": "2026-01-02T03:56:14.043076",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 74.3,
-            "vibration_mm_s": 0.9,
-            "spindle_speed_rpm": 1100,
-            "power_draw_kw": 10.6
-        },
-        "production": {
-            "units_produced": 4,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "5e6e6826-5c5a-406a-a344-53f8ba689831",
-        "timestamp": "2026-01-06T00:53:35.130658",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 67.8,
-            "vibration_mm_s": 0.8,
-            "spindle_speed_rpm": 1650,
-            "power_draw_kw": 11.9
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "282d2cbc-73f4-43b2-bf00-f62598fdbcd9",
-        "timestamp": "2026-01-03T00:09:25.985544",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 73.4,
-            "vibration_mm_s": 1.6,
-            "spindle_speed_rpm": 1700,
-            "power_draw_kw": 10.1
-        },
-        "production": {
-            "units_produced": 16,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "54ebc6af-0364-4903-8baa-28f0664122b0",
-        "timestamp": "2026-01-05T00:57:45.583159",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 73.9,
-            "vibration_mm_s": 3.9,
-            "spindle_speed_rpm": 900,
-            "power_draw_kw": 24.3
-        },
-        "production": {
-            "units_produced": 15,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "b3f255e7-bb07-41d9-9be1-6e3ea9c78f85",
-        "timestamp": "2026-01-04T02:09:19.045350",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 62.8,
-            "vibration_mm_s": 3.7,
-            "spindle_speed_rpm": 1550,
-            "power_draw_kw": 14.5
-        },
-        "production": {
-            "units_produced": 4,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "992163ea-7974-4fc8-b499-abdc130850ae",
-        "timestamp": "2026-01-02T00:57:52.367484",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 69.2,
-            "vibration_mm_s": 2.2,
-            "spindle_speed_rpm": 850,
-            "power_draw_kw": 11.2
-        },
-        "production": {
-            "units_produced": 14,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "3eb41b8e-13ee-4c15-aa67-8b0eb1c3216c",
-        "timestamp": "2026-01-04T06:43:19.021435",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 89.6,
-            "vibration_mm_s": 3.3,
-            "spindle_speed_rpm": 2050,
+            "vibration_mm_s": 1.2,
+            "spindle_speed_rpm": 800,
             "power_draw_kw": 21.6
         },
         "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "9ea4c7b5-e489-463c-9bd4-cc08ce33e23e",
-        "timestamp": "2026-01-04T22:40:51.341768",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 81.3,
-            "vibration_mm_s": 4.1,
-            "spindle_speed_rpm": 2400,
-            "power_draw_kw": 22.7
-        },
-        "production": {
-            "units_produced": 19,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "294e6ae7-93e3-4982-87d7-fba51369768e",
-        "timestamp": "2026-01-06T04:00:50.712382",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 61.4,
-            "vibration_mm_s": 4.1,
-            "spindle_speed_rpm": 1100,
-            "power_draw_kw": 18.4
-        },
-        "production": {
-            "units_produced": 14,
-            "defective_units": 1
-        }
-    },
-    {
-        "event_id": "377d3008-7796-4264-a7d4-9a307e151ea9",
-        "timestamp": "2026-01-02T13:37:01.840389",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 62.6,
-            "vibration_mm_s": 4.6,
-            "spindle_speed_rpm": 2200,
-            "power_draw_kw": 19.3
-        },
-        "production": {
-            "units_produced": 7,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "10b8dcbf-b5ff-4695-bb95-b7e24a9f0cee",
-        "timestamp": "2026-01-04T12:16:09.689622",
-        "machine_id": "ID-7840041J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 85.7,
-            "vibration_mm_s": 4.3,
-            "spindle_speed_rpm": 1750,
-            "power_draw_kw": 15.7
-        },
-        "production": {
-            "units_produced": 15,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "ef2c83e9-edb0-4501-b876-fbc8a29d3d45",
-        "timestamp": "2026-01-05T20:50:53.503118",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 72.1,
-            "vibration_mm_s": 1.9,
-            "spindle_speed_rpm": 1650,
-            "power_draw_kw": 14.9
-        },
-        "production": {
             "units_produced": 6,
             "defective_units": 0
         }
     },
     {
-        "event_id": "6a3344d1-045f-47b8-a9cb-06295c209796",
-        "timestamp": "2026-01-04T15:00:41.761012",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 76.3,
-            "vibration_mm_s": 2.7,
-            "spindle_speed_rpm": 1550,
-            "power_draw_kw": 17.6
-        },
-        "production": {
-            "units_produced": 14,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "866d3182-1eb2-46e3-9f99-5efa6ae5cf74",
-        "timestamp": "2026-01-04T18:56:30.168885",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-fy-08",
+        "event_id": "cf181dff-65b4-471d-ac93-c7466be4323b",
+        "timestamp": "2026-01-03T11:55:53.154635",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Qa-08",
         "operational_status": "ERROR",
         "sensors": {
-            "temperature_celsius": 88.9,
-            "vibration_mm_s": 2.7,
-            "spindle_speed_rpm": 900,
-            "power_draw_kw": 17.9
-        },
-        "production": {
-            "units_produced": 17,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "23946511-861c-4bfe-a3a4-68b1d20a0e86",
-        "timestamp": "2026-01-01T20:28:05.060587",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 70.4,
-            "vibration_mm_s": 3.3,
-            "spindle_speed_rpm": 2050,
-            "power_draw_kw": 18.7
-        },
-        "production": {
-            "units_produced": 8,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "437115eb-a141-4faa-a8ab-974aec7d18dc",
-        "timestamp": "2026-01-04T08:35:22.301081",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 61.8,
-            "vibration_mm_s": 0.8,
-            "spindle_speed_rpm": 1200,
-            "power_draw_kw": 10.7
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "183587fd-927d-4ddf-a9ac-89cfa1ccc0e9",
-        "timestamp": "2026-01-05T14:07:17.341204",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 62.6,
-            "vibration_mm_s": 3.3,
-            "spindle_speed_rpm": 1050,
-            "power_draw_kw": 16.8
-        },
-        "production": {
-            "units_produced": 17,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "4d7086b1-93b2-4e06-8862-89a3830a59f8",
-        "timestamp": "2026-01-05T13:13:37.641163",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 82.2,
-            "vibration_mm_s": 2.2,
-            "spindle_speed_rpm": 1450,
-            "power_draw_kw": 23.3
-        },
-        "production": {
-            "units_produced": 12,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "dbc50496-33b3-49a6-80a8-9cd783c5720a",
-        "timestamp": "2026-01-01T03:16:37.790107",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 67.0,
-            "vibration_mm_s": 1.2,
-            "spindle_speed_rpm": 2500,
-            "power_draw_kw": 14.3
-        },
-        "production": {
-            "units_produced": 10,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "ea20b4c9-14bb-450b-9b4d-8f07bd8c146c",
-        "timestamp": "2026-01-02T02:27:26.637411",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 70.2,
-            "vibration_mm_s": 4.7,
-            "spindle_speed_rpm": 1450,
-            "power_draw_kw": 21.3
-        },
-        "production": {
-            "units_produced": 10,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "327fcde4-3773-40a1-8158-d7e48be0c6bb",
-        "timestamp": "2026-01-05T08:10:35.054701",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 71.6,
-            "vibration_mm_s": 4.5,
-            "spindle_speed_rpm": 1300,
-            "power_draw_kw": 22.7
-        },
-        "production": {
-            "units_produced": 2,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "c1c1b6f9-a5c0-4a86-8142-22fbc2c27c69",
-        "timestamp": "2026-01-06T20:00:17.801384",
-        "machine_id": "ID-7775891W",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 81.5,
-            "vibration_mm_s": 3.3,
-            "spindle_speed_rpm": 2150,
-            "power_draw_kw": 24.7
-        },
-        "production": {
-            "units_produced": 1,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "e055b40c-1a8b-412c-8331-6a0a0f177244",
-        "timestamp": "2026-01-01T15:10:37.868551",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 72.9,
-            "vibration_mm_s": 4.4,
-            "spindle_speed_rpm": 800,
-            "power_draw_kw": 23.3
-        },
-        "production": {
-            "units_produced": 19,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "a3c98ec0-e836-401b-9d4d-3d7ea6ea3529",
-        "timestamp": "2026-01-05T17:40:10.038133",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 88.4,
-            "vibration_mm_s": 3.5,
-            "spindle_speed_rpm": 850,
-            "power_draw_kw": 20.3
-        },
-        "production": {
-            "units_produced": 10,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "322fceda-3f73-497e-9548-2ac50246ddf4",
-        "timestamp": "2026-01-05T01:48:49.694045",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 89.0,
-            "vibration_mm_s": 1.5,
-            "spindle_speed_rpm": 1200,
-            "power_draw_kw": 24.8
-        },
-        "production": {
-            "units_produced": 6,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "449bcefe-21fb-45cb-a8d2-6bd1612bff25",
-        "timestamp": "2026-01-01T08:29:08.286099",
-        "machine_id": "ID-7840041J",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 88.6,
-            "vibration_mm_s": 2.6,
-            "spindle_speed_rpm": 2200,
-            "power_draw_kw": 16.3
-        },
-        "production": {
-            "units_produced": 13,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "85273f55-58fb-4fcd-b08f-fa418e48b1c0",
-        "timestamp": "2026-01-04T11:09:02.988337",
-        "machine_id": "ID-3045137L",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 71.7,
-            "vibration_mm_s": 2.7,
-            "spindle_speed_rpm": 1950,
-            "power_draw_kw": 14.2
-        },
-        "production": {
-            "units_produced": 6,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "4b66ebf0-11a1-48a9-8999-71b3dbf4dd5d",
-        "timestamp": "2026-01-06T20:33:10.158755",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 88.6,
-            "vibration_mm_s": 4.8,
-            "spindle_speed_rpm": 2450,
-            "power_draw_kw": 19.5
-        },
-        "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "67813ef6-7358-4ef3-8069-a816a179ecc1",
-        "timestamp": "2026-01-05T01:07:06.251846",
-        "machine_id": "ID-7840041J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 88.6,
-            "vibration_mm_s": 4.7,
-            "spindle_speed_rpm": 2000,
-            "power_draw_kw": 15.0
+            "temperature_celsius": 83.3,
+            "vibration_mm_s": 3.9,
+            "spindle_speed_rpm": 1600,
+            "power_draw_kw": 12.2
         },
         "production": {
             "units_produced": 9,
@@ -1309,237 +851,16 @@
         }
     },
     {
-        "event_id": "ac3aef07-97ab-47ac-a1e7-49e35e5d803f",
-        "timestamp": "2026-01-01T05:31:27.044460",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-YK-35",
+        "event_id": "edd9bd6c-2ef6-437a-b82b-4dbcd6d658c4",
+        "timestamp": "2026-01-01T13:23:34.792681",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Qa-08",
         "operational_status": "RUNNING",
         "sensors": {
-            "temperature_celsius": 89.4,
-            "vibration_mm_s": 1.9,
-            "spindle_speed_rpm": 1600,
-            "power_draw_kw": 22.4
-        },
-        "production": {
-            "units_produced": 5,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "77f7c920-0bec-47dd-bb4c-a8f62251453e",
-        "timestamp": "2026-01-05T10:15:57.596522",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 84.6,
-            "vibration_mm_s": 4.2,
-            "spindle_speed_rpm": 1050,
-            "power_draw_kw": 16.4
-        },
-        "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "989feeb8-799c-43d8-be98-c3eb2f0969ac",
-        "timestamp": "2026-01-05T04:33:00.473639",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 75.3,
-            "vibration_mm_s": 3.1,
-            "spindle_speed_rpm": 1300,
-            "power_draw_kw": 19.7
-        },
-        "production": {
-            "units_produced": 2,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "c5af5a59-cd55-40ae-bf17-ee6da44545f7",
-        "timestamp": "2026-01-02T12:47:51.252897",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 70.9,
-            "vibration_mm_s": 3.2,
-            "spindle_speed_rpm": 2000,
-            "power_draw_kw": 15.3
-        },
-        "production": {
-            "units_produced": 19,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "da6323e4-072a-4469-a13f-0231ac958d81",
-        "timestamp": "2026-01-01T14:18:52.700324",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-YK-35",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 72.3,
-            "vibration_mm_s": 1.8,
-            "spindle_speed_rpm": 1750,
-            "power_draw_kw": 22.9
-        },
-        "production": {
-            "units_produced": 4,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "c8ca7c8b-dfeb-4020-8113-1fd7958149c3",
-        "timestamp": "2026-01-04T14:08:23.269100",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "ERROR",
-        "sensors": {
-            "temperature_celsius": 65.1,
-            "vibration_mm_s": 1.3,
-            "spindle_speed_rpm": 2200,
-            "power_draw_kw": 10.5
-        },
-        "production": {
-            "units_produced": 14,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "9deddc68-4356-4969-b7a4-3477cd3bd213",
-        "timestamp": "2026-01-04T12:16:11.376314",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 71.9,
-            "vibration_mm_s": 4.2,
-            "spindle_speed_rpm": 2050,
-            "power_draw_kw": 13.7
-        },
-        "production": {
-            "units_produced": 2,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "2699674b-e556-4f58-8efa-ec5b2fc70e84",
-        "timestamp": "2026-01-05T23:27:21.737690",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 67.4,
-            "vibration_mm_s": 1.2,
-            "spindle_speed_rpm": 1550,
-            "power_draw_kw": 19.5
-        },
-        "production": {
-            "units_produced": 15,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "0890d0fc-4931-42b0-84dc-648ff469611b",
-        "timestamp": "2026-01-04T21:18:41.418708",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 88.8,
-            "vibration_mm_s": 1.8,
-            "spindle_speed_rpm": 2000,
-            "power_draw_kw": 12.5
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "c29d7e2b-9e95-4837-8569-13a4d4169e6e",
-        "timestamp": "2026-01-02T21:25:18.898793",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 65.4,
-            "vibration_mm_s": 4.9,
-            "spindle_speed_rpm": 800,
-            "power_draw_kw": 14.5
-        },
-        "production": {
-            "units_produced": 15,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "466b4f89-2e72-4daa-baf9-abba0df0ff50",
-        "timestamp": "2026-01-01T00:07:22.617643",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 66.6,
-            "vibration_mm_s": 1.8,
-            "spindle_speed_rpm": 800,
-            "power_draw_kw": 21.2
-        },
-        "production": {
-            "units_produced": 7,
-            "defective_units": 1
-        }
-    },
-    {
-        "event_id": "f45edb68-0f32-4c93-a3a3-d17e5048a08d",
-        "timestamp": "2026-01-02T19:28:25.344581",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "IDLE",
-        "sensors": {
-            "temperature_celsius": 76.5,
-            "vibration_mm_s": 5.0,
+            "temperature_celsius": 78.5,
+            "vibration_mm_s": 1.6,
             "spindle_speed_rpm": 2350,
-            "power_draw_kw": 24.8
-        },
-        "production": {
-            "units_produced": 20,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "6f26c4fc-fc68-4724-b97b-2aec67a7b9d1",
-        "timestamp": "2026-01-05T17:31:52.786791",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 63.0,
-            "vibration_mm_s": 3.2,
-            "spindle_speed_rpm": 1800,
-            "power_draw_kw": 20.3
-        },
-        "production": {
-            "units_produced": 11,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "0d59c40c-8616-445f-b1fa-55028eccae99",
-        "timestamp": "2026-01-06T18:26:49.069075",
-        "machine_id": "ID-0797832b",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 78.3,
-            "vibration_mm_s": 3.6,
-            "spindle_speed_rpm": 1250,
-            "power_draw_kw": 23.2
+            "power_draw_kw": 11.5
         },
         "production": {
             "units_produced": 17,
@@ -1547,84 +868,118 @@
         }
     },
     {
-        "event_id": "4064db06-7a7f-45b1-b122-d6b11aa7848f",
-        "timestamp": "2026-01-03T07:20:20.819767",
-        "machine_id": "ID-1868283J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "ERROR",
+        "event_id": "43436ce8-c88b-4aac-8918-32dbb7a47a1d",
+        "timestamp": "2026-01-05T08:30:54.690526",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 72.2,
-            "vibration_mm_s": 4.1,
-            "spindle_speed_rpm": 1350,
-            "power_draw_kw": 16.7
+            "temperature_celsius": 77.5,
+            "vibration_mm_s": 4.7,
+            "spindle_speed_rpm": 1000,
+            "power_draw_kw": 22.5
         },
         "production": {
-            "units_produced": 13,
+            "units_produced": 9,
             "defective_units": 0
         }
     },
     {
-        "event_id": "b3538625-b786-463a-a7b8-9e3c3922cb43",
-        "timestamp": "2026-01-06T16:07:50.843461",
-        "machine_id": "ID-2498278q",
-        "plant_id": "PLANT-Ap-34",
-        "operational_status": "ERROR",
+        "event_id": "ef7c04e6-6e14-4036-8f3d-46f6d4155e10",
+        "timestamp": "2026-01-05T21:05:16.260013",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 65.6,
-            "vibration_mm_s": 0.9,
-            "spindle_speed_rpm": 2450,
-            "power_draw_kw": 18.0
+            "temperature_celsius": 69.6,
+            "vibration_mm_s": 2.9,
+            "spindle_speed_rpm": 2500,
+            "power_draw_kw": 16.6
         },
         "production": {
-            "units_produced": 18,
+            "units_produced": 9,
             "defective_units": 0
         }
     },
     {
-        "event_id": "567591c7-e181-48de-aff3-ca7f8d521188",
-        "timestamp": "2026-01-02T15:14:20.242769",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "MAINTENANCE",
+        "event_id": "15045567-c4dd-4789-9423-5f812179ff2c",
+        "timestamp": "2026-01-04T20:35:50.753299",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
         "sensors": {
-            "temperature_celsius": 67.8,
-            "vibration_mm_s": 3.2,
-            "spindle_speed_rpm": 2200,
+            "temperature_celsius": 87.3,
+            "vibration_mm_s": 0.5,
+            "spindle_speed_rpm": 1650,
             "power_draw_kw": 14.2
         },
         "production": {
-            "units_produced": 8,
-            "defective_units": 1
-        }
-    },
-    {
-        "event_id": "cae1ede0-c6fe-410e-b94d-7b411b2077c0",
-        "timestamp": "2026-01-02T02:00:05.433163",
-        "machine_id": "ID-7775891W",
-        "plant_id": "PLANT-lY-93",
-        "operational_status": "MAINTENANCE",
-        "sensors": {
-            "temperature_celsius": 82.2,
-            "vibration_mm_s": 3.5,
-            "spindle_speed_rpm": 1600,
-            "power_draw_kw": 14.4
-        },
-        "production": {
-            "units_produced": 15,
+            "units_produced": 17,
             "defective_units": 0
         }
     },
     {
-        "event_id": "98a5009d-69b2-4be5-a6cf-b2b7b8634d6c",
-        "timestamp": "2026-01-01T12:06:16.054581",
-        "machine_id": "ID-6944565J",
-        "plant_id": "PLANT-fy-08",
+        "event_id": "32e84feb-c47b-4f90-84c6-916fc936cda8",
+        "timestamp": "2026-01-06T12:43:44.285248",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 76.8,
+            "vibration_mm_s": 4.6,
+            "spindle_speed_rpm": 1600,
+            "power_draw_kw": 19.6
+        },
+        "production": {
+            "units_produced": 10,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "98ae1841-c55e-4580-ab97-4acf3be9b2ab",
+        "timestamp": "2026-01-03T15:31:37.531177",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 75.2,
+            "vibration_mm_s": 1.9,
+            "spindle_speed_rpm": 2250,
+            "power_draw_kw": 16.7
+        },
+        "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "b2b50ba6-5ec4-4ada-b77b-c076e850668b",
+        "timestamp": "2026-01-03T15:39:00.559364",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 87.6,
+            "vibration_mm_s": 1.9,
+            "spindle_speed_rpm": 1850,
+            "power_draw_kw": 15.6
+        },
+        "production": {
+            "units_produced": 20,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "a8b0dfec-9a6a-42e0-a61c-309c3c8433a3",
+        "timestamp": "2026-01-05T01:56:00.636840",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-fC-73",
         "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 61.2,
-            "vibration_mm_s": 3.5,
-            "spindle_speed_rpm": 1100,
-            "power_draw_kw": 19.4
+            "temperature_celsius": 66.7,
+            "vibration_mm_s": 2.9,
+            "spindle_speed_rpm": 2000,
+            "power_draw_kw": 18.9
         },
         "production": {
             "units_produced": 7,
@@ -1632,33 +987,16 @@
         }
     },
     {
-        "event_id": "aed04b8c-a690-4752-9704-b5574c74cae7",
-        "timestamp": "2026-01-02T05:33:54.692457",
-        "machine_id": "ID-0400133p",
-        "plant_id": "PLANT-Ap-34",
+        "event_id": "28e5d7bc-bdef-462f-a910-6f96bc8b95f3",
+        "timestamp": "2026-01-06T21:04:26.697208",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-fC-73",
         "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 65.0,
-            "vibration_mm_s": 4.5,
-            "spindle_speed_rpm": 1650,
-            "power_draw_kw": 18.1
-        },
-        "production": {
-            "units_produced": 15,
-            "defective_units": 0
-        }
-    },
-    {
-        "event_id": "ad215959-17f0-4e95-9521-edac8a250a5c",
-        "timestamp": "2026-01-02T06:18:22.186836",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-fy-08",
-        "operational_status": "RUNNING",
-        "sensors": {
-            "temperature_celsius": 68.8,
-            "vibration_mm_s": 3.8,
-            "spindle_speed_rpm": 900,
-            "power_draw_kw": 22.5
+            "temperature_celsius": 66.8,
+            "vibration_mm_s": 2.6,
+            "spindle_speed_rpm": 1600,
+            "power_draw_kw": 17.7
         },
         "production": {
             "units_produced": 4,
@@ -1666,16 +1004,84 @@
         }
     },
     {
-        "event_id": "9dbd4071-3dfa-43fa-a784-b9edeb6dadf0",
-        "timestamp": "2026-01-05T04:32:13.033798",
-        "machine_id": "ID-1948221R",
-        "plant_id": "PLANT-Kt-93",
-        "operational_status": "MAINTENANCE",
+        "event_id": "6f40b0f4-c848-45d0-b414-02fe07a17e63",
+        "timestamp": "2026-01-05T23:59:08.465615",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "IDLE",
         "sensors": {
-            "temperature_celsius": 83.5,
-            "vibration_mm_s": 4.3,
-            "spindle_speed_rpm": 1050,
-            "power_draw_kw": 19.2
+            "temperature_celsius": 71.2,
+            "vibration_mm_s": 2.7,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 22.7
+        },
+        "production": {
+            "units_produced": 15,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "6aee37f2-ab9e-4753-9252-5b4833ca538c",
+        "timestamp": "2026-01-04T08:00:32.413107",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 86.5,
+            "vibration_mm_s": 0.6,
+            "spindle_speed_rpm": 1350,
+            "power_draw_kw": 17.4
+        },
+        "production": {
+            "units_produced": 3,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "418e089b-e126-4686-ad58-f128d61259cc",
+        "timestamp": "2026-01-04T13:16:00.269233",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 62.9,
+            "vibration_mm_s": 0.6,
+            "spindle_speed_rpm": 1800,
+            "power_draw_kw": 25.0
+        },
+        "production": {
+            "units_produced": 11,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "6d34b14a-14ee-4d7e-b178-97074f4574dd",
+        "timestamp": "2026-01-01T14:47:48.869439",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 77.9,
+            "vibration_mm_s": 4.1,
+            "spindle_speed_rpm": 1800,
+            "power_draw_kw": 11.3
+        },
+        "production": {
+            "units_produced": 13,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "dc827ee1-5415-4982-b501-d20f3fc6efa7",
+        "timestamp": "2026-01-04T15:43:07.990487",
+        "machine_id": "ID-5397176,
+        "p"plant_id": "PLANT-fC-73",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 83.3,
+            "vibration_mm_s": 3.8,
+            "spindle_speed_rpm": 1700,
+            "power_draw_kw": 15.2
         },
         "production": {
             "units_produced": 14,
@@ -1683,16 +1089,613 @@
         }
     },
     {
-        "event_id": "473100cb-7d32-4c77-a774-12cd4d3788ca",
-        "timestamp": "2026-01-04T18:24:10.592215",
-        "machine_id": "ID-8572962C",
-        "plant_id": "PLANT-Kt-93",
+        "event_id": "408df81e-f58b-40fe-8561-310eaa84fecd",
+        "timestamp": "2026-01-03T21:33:20.262683",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 74.2,
+            "vibration_mm_s": 2.5,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 22.6
+        },
+        "production": {
+            "units_produced": 12,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "4233c5c2-4c86-4031-91de-cfdd6cfbd217",
+        "timestamp": "2026-01-04T00:03:13.052636",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 64.2,
+            "vibration_mm_s": 2.7,
+            "spindle_speed_rpm": 1850,
+            "power_draw_kw": 23.1
+        },
+        "production": {
+            "units_produced": 15,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "982196e3-f41e-483a-8511-07acd425541e",
+        "timestamp": "2026-01-01T07:01:52.264906",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-fC-73",
         "operational_status": "RUNNING",
         "sensors": {
-            "temperature_celsius": 74.0,
-            "vibration_mm_s": 3.9,
+            "temperature_celsius": 80.2,
+            "vibration_mm_s": 1.6,
+            "spindle_speed_rpm": 900,
+            "power_draw_kw": 12.2
+        },
+        "production": {
+            "units_produced": 4,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "24198876-52fb-4f05-af02-0d192a511754",
+        "timestamp": "2026-01-05T11:30:05.827309",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 62.8,
+            "vibration_mm_s": 0.9,
+            "spindle_speed_rpm": 2400,
+            "power_draw_kw": 18.9
+        },
+        "production": {
+            "units_produced": 13,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "233abb5f-523d-4f41-8a30-52f625a2b019",
+        "timestamp": "2026-01-03T02:41:52.537178",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 83.3,
+            "vibration_mm_s": 4.2,
+            "spindle_speed_rpm": 1350,
+            "power_draw_kw": 10.1
+        },
+        "production": {
+            "units_produced": 17,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "68463503-b499-4fa0-9df4-d03aaeb766aa",
+        "timestamp": "2026-01-05T22:53:11.328118",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 67.3,
+            "vibration_mm_s": 3.4,
+            "spindle_speed_rpm": 800,
+            "power_draw_kw": 13.8
+        },
+        "production": {
+            "units_produced": 10,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "17136647-36e8-49c9-a3ea-7a9923bcbe4e",
+        "timestamp": "2026-01-04T08:13:57.600998",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 82.8,
+            "vibration_mm_s": 0.5,
+            "spindle_speed_rpm": 2350,
+            "power_draw_kw": 19.7
+        },
+        "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "71df1fdd-b288-49d9-ba11-92edeb3b2c4d",
+        "timestamp": "2026-01-05T00:42:32.934276",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 63.7,
+            "vibration_mm_s": 4.1,
+            "spindle_speed_rpm": 2200,
+            "power_draw_kw": 17.9
+        },
+        "production": {
+            "units_produced": 12,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "e803dde7-cc28-4337-952d-7411448ef745",
+        "timestamp": "2026-01-06T11:29:45.304977",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 62.5,
+            "vibration_mm_s": 0.9,
             "spindle_speed_rpm": 2150,
-            "power_draw_kw": 19.5
+            "power_draw_kw": 13.7
+        },
+        "production": {
+            "units_produced": 14,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "312b9fb8-fed2-4b7e-9156-a6e09afeea54",
+        "timestamp": "2026-01-05T01:05:20.564227",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 72.4,
+            "vibration_mm_s": 3.8,
+            "spindle_speed_rpm": 950,
+            "power_draw_kw": 12.8
+        },
+        "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "eee2b444-e653-430e-90c6-51d19ba58edf",
+        "timestamp": "2026-01-02T11:11:25.112615",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 61.9,
+            "vibration_mm_s": 4.2,
+            "spindle_speed_rpm": 1450,
+            "power_draw_kw": 20.6
+        },
+        "production": {
+            "units_produced": 9,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "e7ef768d-377d-4595-93d6-92e52067295b",
+        "timestamp": "2026-01-02T18:49:24.405084",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 70.7,
+            "vibration_mm_s": 1.3,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 23.3
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "15d46b08-53dc-494b-952d-702f76465c6e",
+        "timestamp": "2026-01-01T17:59:47.770808",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 61.9,
+            "vibration_mm_s": 3.8,
+            "spindle_speed_rpm": 1200,
+            "power_draw_kw": 20.5
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "bdafc75a-4099-4d8e-b578-f10cad737e9a",
+        "timestamp": "2026-01-04T05:34:58.428876",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 63.3,
+            "vibration_mm_s": 2.0,
+            "spindle_speed_rpm": 1200,
+            "power_draw_kw": 19.8
+        },
+        "production": {
+            "units_produced": 11,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "23d8c3db-cc89-4f31-a72c-84de760e6520",
+        "timestamp": "2026-01-05T02:39:25.454755",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 85.0,
+            "vibration_mm_s": 3.2,
+            "spindle_speed_rpm": 2250,
+            "power_draw_kw": 18.4
+        },
+        "production": {
+            "units_produced": 11,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "b701de5d-0cae-4c5c-,
+        "timesta,
+        "timestamp": "2026-01-06T16:06:12.775172",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 70.3,
+            "vibration_mm_s": 4.8,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 11.3
+        },
+        "production": {
+            "units_produced": 14,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "3812cb3c-0af4-4837-ba8f-f2b1d8412a49",
+        "timestamp": "2026-01-05T10:54:53.911134",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 66.4,
+            "vibration_mm_s": 3.5,
+            "spindle_speed_rpm": 800,
+            "power_draw_kw": 21.6
+        },
+        "production": {
+            "units_produced": 4,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "e909efc9-8f21-4cdf-a469-85aa26fbfeb9",
+        "timestamp": "2026-01-03T13:44:28.599633",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 71.2,
+            "vibration_mm_s": 3.3,
+            "spindle_speed_rpm": 950,
+            "power_draw_kw": 10.4
+        },
+        "production": {
+            "units_produced": 19,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "17d44d4a-8bbe-403d-8337-6cecad848d73",
+        "timestamp": "2026-01-06T09:27:16.770111",
+        "machine_id": "ID-1998273f",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 86.2,
+            "vibration_mm_s": 4.2,
+            "spindle_speed_rpm": 1050,
+            "power_draw_kw": 11.5
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "645b287f-518c-4bfd-8891-b0948c7ec5d1",
+        "timestamp": "2026-01-04T22:51:21.848612",
+        "machine_id": "ID-2765462X",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 69.4,
+            "vibration_mm_s": 4.4,
+            "spindle_speed_rpm": 1550,
+            "power_draw_kw": 16.2
+        },
+        "production": {
+            "units_produced": 13,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "ef3732b3-7982-413c-9295-9e19ea35140e",
+        "timestamp": "2026-01-06T07:30:17.618446",
+        "machine_id": "ID-2814471h",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 75.0,
+            "vibration_mm_s": 2.2,
+            "spindle_speed_rpm": 1450,
+            "power_draw_kw": 20.0
+        },
+        "production": {
+            "units_produced": 16,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "87738e98-227e-469c-84a1-e9a8fa01ff0a",
+        "timestamp": "2026-01-01T22:47:00.538826",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 61.1,
+            "vibration_mm_s": 2.5,
+            "spindle_speed_rpm": 2350,
+            "power_draw_kw": 18.6
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "066c00cb-9056-48a7-9225-cddb90404669",
+        "timestamp": "2026-01-06T15:25:23.713567",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 77.7,
+            "vibration_mm_s": 4.0,
+            "spindle_speed_rpm": 1900,
+            "power_draw_kw": 19.3
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 1
+        }
+    },
+    {
+        "event_id": "c359bd75-ca9a-4f2d-8ac4-90c99bf922be",
+        "timestamp": "2026-01-03T09:10:25.056663",
+        "machine_id": "ID-4866916r",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 64.3,
+            "vibration_mm_s": 1.4,
+            "spindle_speed_rpm": 2350,
+            "power_draw_kw": 24.3
+        },
+        "production": {
+            "units_produced": 18,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "12ff87c7-6176-455f-b7da-45f6be99c5cf",
+        "timestamp": "2026-01-04T20:01:12.633231",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 79.4,
+            "vibration_mm_s": 1.7,
+            "spindle_speed_rpm": 2000,
+            "power_draw_kw": 14.1
+        },
+        "production": {
+            "units_produced": 17,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "79301887-8c41-4185-a33b-bd2ce9a1f857",
+        "timestamp": "2026-01-02T06:46:11.475493",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 61.4,
+            "vibration_mm_s": 3.4,
+            "spindle_speed_rpm": 1200,
+            "power_draw_kw": 16.6
+        },
+        "production": {
+            "units_produced": 5,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "7c525388-3685-4720-9343-37ab2a791f7f",
+        "timestamp": "2026-01-06T21:54:56.057691",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 61.6,
+            "vibration_mm_s": 0.9,
+            "spindle_speed_rpm": 1550,
+            "power_draw_kw": 20.5
+        },
+        "production": {
+            "units_produced": 17,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "2a1c195b-83af-431d-bbcd-119f85f6f35a",
+        "timestamp": "2026-01-03T11:50:36.668381",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 86.4,
+            "vibration_mm_s": 2.3,
+            "spindle_speed_rpm": 1850,
+            "power_draw_kw": 14.8
+        },
+        "production": {
+            "units_produced": 1,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "8047b202-0d2e-428e-a2c9-bf030f590816",
+        "timestamp": "2026-01-02T13:24:47.896117",
+        "machine_id": "ID-3583262e",
+        "plant_id": "PLANT-Ta-52",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 82.7,
+            "vibration_mm_s": 1.4,
+            "spindle_speed_rpm": 2150,
+            "power_draw_kw": 19.6
+        },
+        "production": {
+            "units_produced": 6,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "a2ab52cf-7fac-4603-83bb-349a3c9accc5",
+        "timestamp": "2026-01-01T18:33:18.402812",
+        "machine_id": "ID-0355134f",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "RUNNING",
+        "sensors": {
+            "temperature_celsius": 76.8,
+            "vibration_mm_s": 4.9,
+            "spindle_speed_rpm": 1850,
+            "power_draw_kw": 15.6
+        },
+        "production": {
+            "units_produced": 13,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "47b7a136-42ef-4f9d-b2a6-22155dcd3a85",
+        "timestamp": "2026-01-04T19:51:48.063002",
+        "machine_id": "ID-5397176i",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 69.6,
+            "vibration_mm_s": 4.0,
+            "spindle_speed_rpm": 1050,
+            "power_draw_kw": 10.4
+        },
+        "production": {
+            "units_produced": 15,
+: 0
+        "defective_units": 0
+        }
+    },
+    {
+        "event_id": "91ae0c05-fbbb-4c6c-831f-9376757a2193",
+        "timestamp": "2026-01-01T05:52:51.058641",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-Qa-08",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 63.8,
+            "vibration_mm_s": 2.3,
+            "spindle_speed_rpm": 1150,
+            "power_draw_kw": 13.1
+        },
+        "production": {
+            "units_produced": 6,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "f0415b1e-7a9b-4816-b5aa-8fcc5bd80d24",
+        "timestamp": "2026-01-02T14:32:14.318892",
+        "machine_id": "ID-0618208H",
+        "plant_id": "PLANT-OY-67",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 69.6,
+            "vibration_mm_s": 4.1,
+            "spindle_speed_rpm": 2500,
+            "power_draw_kw": 19.2
+        },
+        "production": {
+            "units_produced": 12,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "37637610-70c8-4bb5-b320-6ce3299a0b71",
+        "timestamp": "2026-01-06T02:44:19.260064",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "ERROR",
+        "sensors": {
+            "temperature_celsius": 72.5,
+            "vibration_mm_s": 2.7,
+            "spindle_speed_rpm": 1300,
+            "power_draw_kw": 11.7
+        },
+        "production": {
+            "units_produced": 2,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "266cd112-8a58-4e17-ba9b-a029d9d4e1a2",
+        "timestamp": "2026-01-04T05:26:07.232295",
+        "machine_id": "ID-2778992b",
+        "plant_id": "PLANT-fC-73",
+        "operational_status": "MAINTENANCE",
+        "sensors": {
+            "temperature_celsius": 71.7,
+            "vibration_mm_s": 4.7,
+            "spindle_speed_rpm": 2500,
+            "power_draw_kw": 13.0
+        },
+        "production": {
+            "units_produced": 20,
+            "defective_units": 0
+        }
+    },
+    {
+        "event_id": "af748a43-7611-474a-8a6a-43d98693f65b",
+        "timestamp": "2026-01-05T00:46:23.782864",
+        "machine_id": "ID-5366985s",
+        "plant_id": "PLANT-Pi-89",
+        "operational_status": "IDLE",
+        "sensors": {
+            "temperature_celsius": 63.2,
+            "vibration_mm_s": 1.6,
+            "spindle_speed_rpm": 1750,
+            "power_draw_kw": 15.7
         },
         "production": {
             "units_produced": 8,

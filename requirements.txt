@@ -3,3 +3,5 @@ requests
 snowflake-connector-python
 dbt-snowflake
 faker
+python-dotenv
+requests

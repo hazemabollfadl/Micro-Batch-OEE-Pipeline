@@ -1,45 +1,54 @@
-Overview
-========
+# 🏭 Industrial IoT & Telemetry Pipeline (Micro-Batch OEE)
 
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+An end-to-end, containerized ELT pipeline designed to simulate factory floor machine telemetry, ingest external API energy market data, and model the financial impact of dynamic power grids on Overall Equipment Effectiveness (OEE).
 
-Project Contents
-================
+## 🚀 Business Case
+In modern Industry 4.0 environments, calculating OEE is standard. However, in regions with fluctuating energy markets (like Germany), machine downtime isn't just a loss of production—running power-heavy machines during peak grid pricing drastically reduces profit margins. 
 
-Your Astro project contains the following files and folders:
+This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahead wholesale electricity prices to provide a real-time view of estimated energy costs per machine event.
 
-- dags: This folder contains the Python files for your Airflow DAGs. By default, this directory includes one example DAG:
-    - `example_astronauts`: This DAG shows a simple ETL pipeline example that queries the list of astronauts currently in space from the Open Notify API and prints a statement for each astronaut. The DAG uses the TaskFlow API to define tasks in Python, and dynamic task mapping to dynamically print a statement for each astronaut. For more on how this DAG works, see our [Getting started tutorial](https://www.astronomer.io/docs/learn/get-started-with-airflow).
-- Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
-- include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
-- packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
-- requirements.txt: Install Python packages needed for your project by adding them to this file. It is empty by default.
-- plugins: Add custom or community plugins for your project to this file. It is empty by default.
-- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
+## 🏗️ Architecture
 
-Deploy Your Project Locally
-===========================
 
-Start Airflow on your local machine by running 'astro dev start'.
 
-This command will spin up five Docker containers on your machine, each for a different Airflow component:
+### The Modern Data Stack
+* **Extraction (Python):** Custom simulators generate realistic factory JSON telemetry. The `requests` library pulls hourly wholesale energy prices from the German SMARD.de REST API.
+* **Storage (Snowflake):** Acts as the single-source-of-truth data warehouse. Raw JSON is loaded directly into `VARIANT` columns via the `snowflake-connector-python`.
+* **Transformation (dbt Core):** Unpacks semi-structured JSON, enforces data quality tests, and models the data into a Kimball Star Schema (Fact and Dimension tables).
+* **Orchestration (Apache Airflow):** Containerized via Astronomer (Astro CLI), Airflow runs the pipeline as a daily micro-batch DAG.
+* **Presentation (Snowsight):** Dashboards visualize machine status distribution and continuous energy cost metrics.
 
-- Postgres: Airflow's Metadata Database
-- Scheduler: The Airflow component responsible for monitoring and triggering tasks
-- DAG Processor: The Airflow component responsible for parsing DAGs
-- API Server: The Airflow component responsible for serving the Airflow UI and API
-- Triggerer: The Airflow component responsible for triggering deferred tasks
+## 📂 Repository Structure (Monorepo)
 
-When all five containers are ready the command will open the browser to the Airflow UI at http://localhost:8080/. You should also be able to access your Postgres Database at 'localhost:5432/postgres' with username 'postgres' and password 'postgres'.
+```text
+Micro-Batch-OEE-Pipeline/
+├── dags/                           # Airflow DAG definition (elt_pipeline_dag.py)
+├── include/
+│   ├── extract/                    # Python API and Simulator scripts
+│   ├── load/                       # Snowflake ingestion scripts
+│   └── iiot_transformations/       # dbt Core project (models, tests, schema.yml)
+├── Dockerfile                      # Astro CLI image configuration
+├── requirements.txt                # Python dependencies (dbt-snowflake, etc.)
+└── README.md
 
-Note: If you already have either of the above ports allocated, you can either [stop your existing Docker containers or change the port](https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver).
+⚙️ How to Run Locally
+This project uses the Astronomer CLI to spin up a local Airflow environment via Docker.
 
-Deploy Your Project to Astronomer
-=================================
+1. Clone the repository:
+git clone [https://github.com/hazemabollfadl/Micro-Batch-OEE-Pipeline.git](https://github.com/your-hazemabollfadl/Micro-Batch-OEE-Pipeline.git)
+cd Micro-Batch-OEE-Pipeline
 
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
+2. Configure your Snowflake Credentials:
+Create a .env file in the root directory and add your Snowflake trial credentials:
+SNOWFLAKE_ACCOUNT=your_account_locator
+SNOWFLAKE_USER=your_username
+SNOWFLAKE_PASSWORD=your_password
+SNOWFLAKE_DATABASE=IIOT_FACTORY
+SNOWFLAKE_SCHEMA=RAW
 
-Contact
-=======
+3. Start the Airflow Cluster:
+Ensure Docker is running (OrbStack recommended for Apple Silicon), then run:
+astro dev start
 
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
+4. Trigger the Pipeline:
+Navigate to http://localhost:8080 (default credentials: admin / admin). Unpause the iiot_data_pipeline DAG and trigger it manually to watch the ELT process execute!

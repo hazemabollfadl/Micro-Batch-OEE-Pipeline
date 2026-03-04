@@ -7,3 +7,10 @@ __pycache__/
 include/iiot_transformations/target/
 include/iiot_transformations/dbt_packages/
 include/iiot_transformations/logs/
+
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Python Extras
+*.pyc

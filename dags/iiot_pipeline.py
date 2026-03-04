@@ -27,35 +27,36 @@ with DAG(
     start_pipeline = EmptyOperator(task_id='start_pipeline')
     end_pipeline = EmptyOperator(task_id='end_pipeline')
 
-    # Use {{ var.value.workspace_path }} if defined, otherwise fallback to Astro default
-    # The ' ' (space) syntax in bash executes commands sequentially in the same subshell
-
+    # Task 1: Run the Telemetry Simulator
     extract_telemetry = BashOperator(
         task_id='extract_telemetry',
         bash_command="""
             mkdir -p ${AIRFLOW_HOME}/include/data/raw
             cd ${AIRFLOW_HOME}/include
-            python scripts/simulator.py
+            python extract/simulator.py
         """
     )
 
+    # Task 2: Run the Energy Extractor
     extract_energy = BashOperator(
         task_id='extract_energy',
         bash_command="""
             mkdir -p ${AIRFLOW_HOME}/include/data/raw
             cd ${AIRFLOW_HOME}/include
-            python scripts/energy_extractor.py
+            python extract/energy_extractor.py
         """
     )
 
+    # Task 3: Load raw data into Snowflake
     load_snowflake = BashOperator(
         task_id='load_snowflake',
         bash_command="""
             cd ${AIRFLOW_HOME}/include
-            python scripts/snowflake_loader.py
+            python load/snowflake_loader.py
         """
     )
 
+    # Task 4: Run dbt transformations
     run_dbt_models = BashOperator(
         task_id='run_dbt_models',
         bash_command="""
@@ -63,6 +64,7 @@ with DAG(
         """
     )
 
+    # Task 5: Run dbt tests
     run_dbt_tests = BashOperator(
         task_id='run_dbt_tests',
         bash_command="""

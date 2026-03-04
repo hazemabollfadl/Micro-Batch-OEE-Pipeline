@@ -1,0 +1,382 @@
+[
+    {
+        "timestamp": "2026-01-01T00:00:00+00:00",
+        "price_eur_per_mwh": 42.4
+    },
+    {
+        "timestamp": "2026-01-01T01:00:00+00:00",
+        "price_eur_per_mwh": 19.57
+    },
+    {
+        "timestamp": "2026-01-01T02:00:00+00:00",
+        "price_eur_per_mwh": 6.29
+    },
+    {
+        "timestamp": "2026-01-01T03:00:00+00:00",
+        "price_eur_per_mwh": 3.09
+    },
+    {
+        "timestamp": "2026-01-01T04:00:00+00:00",
+        "price_eur_per_mwh": 0.83
+    },
+    {
+        "timestamp": "2026-01-01T05:00:00+00:00",
+        "price_eur_per_mwh": 0.05
+    },
+    {
+        "timestamp": "2026-01-01T06:00:00+00:00",
+        "price_eur_per_mwh": 0.02
+    },
+    {
+        "timestamp": "2026-01-01T07:00:00+00:00",
+        "price_eur_per_mwh": 0.06
+    },
+    {
+        "timestamp": "2026-01-01T08:00:00+00:00",
+        "price_eur_per_mwh": 0.0
+    },
+    {
+        "timestamp": "2026-01-01T09:00:00+00:00",
+        "price_eur_per_mwh": 0.0
+    },
+    {
+        "timestamp": "2026-01-01T10:00:00+00:00",
+        "price_eur_per_mwh": 0.0
+    },
+    {
+        "timestamp": "2026-01-01T11:00:00+00:00",
+        "price_eur_per_mwh": -0.01
+    },
+    {
+        "timestamp": "2026-01-01T12:00:00+00:00",
+        "price_eur_per_mwh": -0.01
+    },
+    {
+        "timestamp": "2026-01-01T13:00:00+00:00",
+        "price_eur_per_mwh": 0.02
+    },
+    {
+        "timestamp": "2026-01-01T14:00:00+00:00",
+        "price_eur_per_mwh": 3.51
+    },
+    {
+        "timestamp": "2026-01-01T15:00:00+00:00",
+        "price_eur_per_mwh": 10.34
+    },
+    {
+        "timestamp": "2026-01-01T16:00:00+00:00",
+        "price_eur_per_mwh": 21.8
+    },
+    {
+        "timestamp": "2026-01-01T17:00:00+00:00",
+        "price_eur_per_mwh": 23.13
+    },
+    {
+        "timestamp": "2026-01-01T18:00:00+00:00",
+        "price_eur_per_mwh": 18.09
+    },
+    {
+        "timestamp": "2026-01-01T19:00:00+00:00",
+        "price_eur_per_mwh": 10.04
+    },
+    {
+        "timestamp": "2026-01-01T20:00:00+00:00",
+        "price_eur_per_mwh": 8.95
+    },
+    {
+        "timestamp": "2026-01-01T21:00:00+00:00",
+        "price_eur_per_mwh": 7.37
+    },
+    {
+        "timestamp": "2026-01-01T22:00:00+00:00",
+        "price_eur_per_mwh": 0.29
+    },
+    {
+        "timestamp": "2026-01-01T23:00:00+00:00",
+        "price_eur_per_mwh": 9.68
+    },
+    {
+        "timestamp": "2026-01-02T00:00:00+00:00",
+        "price_eur_per_mwh": 3.01
+    },
+    {
+        "timestamp": "2026-01-02T01:00:00+00:00",
+        "price_eur_per_mwh": 1.81
+    },
+    {
+        "timestamp": "2026-01-02T02:00:00+00:00",
+        "price_eur_per_mwh": 0.25
+    },
+    {
+        "timestamp": "2026-01-02T03:00:00+00:00",
+        "price_eur_per_mwh": 1.73
+    },
+    {
+        "timestamp": "2026-01-02T04:00:00+00:00",
+        "price_eur_per_mwh": 12.0
+    },
+    {
+        "timestamp": "2026-01-02T05:00:00+00:00",
+        "price_eur_per_mwh": 21.8
+    },
+    {
+        "timestamp": "2026-01-02T06:00:00+00:00",
+        "price_eur_per_mwh": 50.97
+    },
+    {
+        "timestamp": "2026-01-02T07:00:00+00:00",
+        "price_eur_per_mwh": 68.87
+    },
+    {
+        "timestamp": "2026-01-02T08:00:00+00:00",
+        "price_eur_per_mwh": 71.2
+    },
+    {
+        "timestamp": "2026-01-02T09:00:00+00:00",
+        "price_eur_per_mwh": 57.89
+    },
+    {
+        "timestamp": "2026-01-02T10:00:00+00:00",
+        "price_eur_per_mwh": 55.93
+    },
+    {
+        "timestamp": "2026-01-02T11:00:00+00:00",
+        "price_eur_per_mwh": 58.0
+    },
+    {
+        "timestamp": "2026-01-02T12:00:00+00:00",
+        "price_eur_per_mwh": 66.95
+    },
+    {
+        "timestamp": "2026-01-02T13:00:00+00:00",
+        "price_eur_per_mwh": 70.12
+    },
+    {
+        "timestamp": "2026-01-02T14:00:00+00:00",
+        "price_eur_per_mwh": 77.5
+    },
+    {
+        "timestamp": "2026-01-02T15:00:00+00:00",
+        "price_eur_per_mwh": 82.46
+    },
+    {
+        "timestamp": "2026-01-02T16:00:00+00:00",
+        "price_eur_per_mwh": 85.44
+    },
+    {
+        "timestamp": "2026-01-02T17:00:00+00:00",
+        "price_eur_per_mwh": 88.34
+    },
+    {
+        "timestamp": "2026-01-02T18:00:00+00:00",
+        "price_eur_per_mwh": 88.57
+    },
+    {
+        "timestamp": "2026-01-02T19:00:00+00:00",
+        "price_eur_per_mwh": 89.15
+    },
+    {
+        "timestamp": "2026-01-02T20:00:00+00:00",
+        "price_eur_per_mwh": 83.52
+    },
+    {
+        "timestamp": "2026-01-02T21:00:00+00:00",
+        "price_eur_per_mwh": 85.59
+    },
+    {
+        "timestamp": "2026-01-02T22:00:00+00:00",
+        "price_eur_per_mwh": 81.83
+    },
+    {
+        "timestamp": "2026-01-02T23:00:00+00:00",
+        "price_eur_per_mwh": 80.16
+    },
+    {
+        "timestamp": "2026-01-03T00:00:00+00:00",
+        "price_eur_per_mwh": 78.33
+    },
+    {
+        "timestamp": "2026-01-03T01:00:00+00:00",
+        "price_eur_per_mwh": 75.82
+    },
+    {
+        "timestamp": "2026-01-03T02:00:00+00:00",
+        "price_eur_per_mwh": 74.82
+    },
+    {
+        "timestamp": "2026-01-03T03:00:00+00:00",
+        "price_eur_per_mwh": 73.02
+    },
+    {
+        "timestamp": "2026-01-03T04:00:00+00:00",
+        "price_eur_per_mwh": 74.99
+    },
+    {
+        "timestamp": "2026-01-03T05:00:00+00:00",
+        "price_eur_per_mwh": 75.91
+    },
+    {
+        "timestamp": "2026-01-03T06:00:00+00:00",
+        "price_eur_per_mwh": 79.31
+    },
+    {
+        "timestamp": "2026-01-03T07:00:00+00:00",
+        "price_eur_per_mwh": 90.69
+    },
+    {
+        "timestamp": "2026-01-03T08:00:00+00:00",
+        "price_eur_per_mwh": 94.09
+    },
+    {
+        "timestamp": "2026-01-03T09:00:00+00:00",
+        "price_eur_per_mwh": 93.31
+    },
+    {
+        "timestamp": "2026-01-03T10:00:00+00:00",
+        "price_eur_per_mwh": 88.71
+    },
+    {
+        "timestamp": "2026-01-03T11:00:00+00:00",
+        "price_eur_per_mwh": 87.41
+    },
+    {
+        "timestamp": "2026-01-03T12:00:00+00:00",
+        "price_eur_per_mwh": 86.6
+    },
+    {
+        "timestamp": "2026-01-03T13:00:00+00:00",
+        "price_eur_per_mwh": 89.68
+    },
+    {
+        "timestamp": "2026-01-03T14:00:00+00:00",
+        "price_eur_per_mwh": 94.6
+    },
+    {
+        "timestamp": "2026-01-03T15:00:00+00:00",
+        "price_eur_per_mwh": 99.88
+    },
+    {
+        "timestamp": "2026-01-03T16:00:00+00:00",
+        "price_eur_per_mwh": 109.72
+    },
+    {
+        "timestamp": "2026-01-03T17:00:00+00:00",
+        "price_eur_per_mwh": 110.83
+    },
+    {
+        "timestamp": "2026-01-03T18:00:00+00:00",
+        "price_eur_per_mwh": 104.76
+    },
+    {
+        "timestamp": "2026-01-03T19:00:00+00:00",
+        "price_eur_per_mwh": 97.63
+    },
+    {
+        "timestamp": "2026-01-03T20:00:00+00:00",
+        "price_eur_per_mwh": 91.12
+    },
+    {
+        "timestamp": "2026-01-03T21:00:00+00:00",
+        "price_eur_per_mwh": 90.71
+    },
+    {
+        "timestamp": "2026-01-03T22:00:00+00:00",
+        "price_eur_per_mwh": 86.02
+    },
+    {
+        "timestamp": "2026-01-03T23:00:00+00:00",
+        "price_eur_per_mwh": 88.82
+    },
+    {
+        "timestamp": "2026-01-04T00:00:00+00:00",
+        "price_eur_per_mwh": 85.33
+    },
+    {
+        "timestamp": "2026-01-04T01:00:00+00:00",
+        "price_eur_per_mwh": 85.04
+    },
+    {
+        "timestamp": "2026-01-04T02:00:00+00:00",
+        "price_eur_per_mwh": 83.74
+    },
+    {
+        "timestamp": "2026-01-04T03:00:00+00:00",
+        "price_eur_per_mwh": 82.56
+    },
+    {
+        "timestamp": "2026-01-04T04:00:00+00:00",
+        "price_eur_per_mwh": 83.41
+    },
+    {
+        "timestamp": "2026-01-04T05:00:00+00:00",
+        "price_eur_per_mwh": 83.8
+    },
+    {
+        "timestamp": "2026-01-04T06:00:00+00:00",
+        "price_eur_per_mwh": 86.48
+    },
+    {
+        "timestamp": "2026-01-04T07:00:00+00:00",
+        "price_eur_per_mwh": 88.12
+    },
+    {
+        "timestamp": "2026-01-04T08:00:00+00:00",
+        "price_eur_per_mwh": 94.3
+    },
+    {
+        "timestamp": "2026-01-04T09:00:00+00:00",
+        "price_eur_per_mwh": 94.76
+    },
+    {
+        "timestamp": "2026-01-04T10:00:00+00:00",
+        "price_eur_per_mwh": 90.88
+    },
+    {
+        "timestamp": "2026-01-04T11:00:00+00:00",
+        "price_eur_per_mwh": 89.54
+    },
+    {
+        "timestamp": "2026-01-04T12:00:00+00:00",
+        "price_eur_per_mwh": 86.78
+    },
+    {
+        "timestamp": "2026-01-04T13:00:00+00:00",
+        "price_eur_per_mwh": 92.68
+    },
+    {
+        "timestamp": "2026-01-04T14:00:00+00:00",
+        "price_eur_per_mwh": 93.2
+    },
+    {
+        "timestamp": "2026-01-04T15:00:00+00:00",
+        "price_eur_per_mwh": 100.59
+    },
+    {
+        "timestamp": "2026-01-04T16:00:00+00:00",
+        "price_eur_per_mwh": 118.43
+    },
+    {
+        "timestamp": "2026-01-04T17:00:00+00:00",
+        "price_eur_per_mwh": 121.18
+    },
+    {
+        "timestamp": "2026-01-04T18:00:00+00:00",
+        "price_eur_per_mwh": 119.72
+    },
+    {
+        "timestamp": "2026-01-04T19:00:00+00:00",
+        "price_eur_per_mwh": 112.45
+    },
+    {
+        "timestamp": "2026-01-04T20:00:00+00:00",
+        "price_eur_per_mwh": 99.7
+    },
+    {
+        "timestamp": "2026-01-04T21:00:00+00:00",
+        "price_eur_per_mwh": 95.77
+    },
+    {
+        "timestamp": "2026-01-04T22:00:00+00:00",
+        "price_eur_per_mwh": 89.21
+    }
+]

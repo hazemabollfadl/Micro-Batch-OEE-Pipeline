@@ -1,0 +1,9 @@
+.astro/
+.venv/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+.env
+include/iiot_transformations/target/
+include/iiot_transformations/dbt_packages/
+include/iiot_transformations/logs/

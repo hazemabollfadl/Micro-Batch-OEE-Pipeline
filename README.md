@@ -16,7 +16,11 @@ This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahe
 * **Storage (Snowflake):** Acts as the single-source-of-truth data warehouse. Raw JSON is loaded directly into `VARIANT` columns via the `snowflake-connector-python`.
 * **Transformation (dbt Core):** Unpacks semi-structured JSON, enforces data quality tests, and models the data into a Kimball Star Schema (Fact and Dimension tables).
 * **Orchestration (Apache Airflow):** Containerized via Astronomer (Astro CLI), Airflow runs the pipeline as a daily micro-batch DAG.
+*The fully green execution graph of the ELT pipeline, showing parallel extraction and sequential loading/testing.*
+![Airflow DAG](assets/airflow_dag.png)
 * **Presentation (Snowsight):** Dashboards visualize machine status distribution and continuous energy cost metrics.
+*The final Business Intelligence dashboard tracking Overall Equipment Effectiveness (OEE) against estimated energy costs.*
+![Snowsight Dashboard](assets/snowsight_dashboard.jpg)
 
 ## 📂 Repository Structure (Monorepo)
 

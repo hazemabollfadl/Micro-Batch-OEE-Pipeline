@@ -9,7 +9,7 @@ This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahe
 
 ## 🏗️ Architecture
 
-
+![Data Pipeline Architecture Diagram](assets/architecture_diagram.png)
 
 ### The Modern Data Stack
 * **Extraction (Python):** Custom simulators generate realistic factory JSON telemetry. The `requests` library pulls hourly wholesale energy prices from the German SMARD.de REST API.

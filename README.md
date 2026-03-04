@@ -1,13 +1,13 @@
-# 🏭 Industrial IoT & Telemetry Pipeline (Micro-Batch OEE)
+# Industrial IoT & Telemetry Pipeline (Micro-Batch OEE)
 
 An end-to-end, containerized ELT pipeline designed to simulate factory floor machine telemetry, ingest external API energy market data, and model the financial impact of dynamic power grids on Overall Equipment Effectiveness (OEE).
 
-## 🚀 Business Case
+## Business Case
 In modern Industry 4.0 environments, calculating OEE is standard. However, in regions with fluctuating energy markets (like Germany), machine downtime isn't just a loss of production—running power-heavy machines during peak grid pricing drastically reduces profit margins. 
 
 This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahead wholesale electricity prices to provide a real-time view of estimated energy costs per machine event.
 
-## 🏗️ Architecture
+## Architecture
 
 ![Data Pipeline Architecture Diagram](assets/architecture_diagram.png)
 
@@ -22,7 +22,7 @@ This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahe
 *The final Business Intelligence dashboard tracking Overall Equipment Effectiveness (OEE) against estimated energy costs.*
 ![Snowsight Dashboard](assets/snowsight_dashboard.png)
 
-## 📂 Repository Structure (Monorepo)
+## Repository Structure (Monorepo)
 
 ```text
 Micro-Batch-OEE-Pipeline/

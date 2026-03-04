@@ -9,7 +9,10 @@ This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahe
 
 ## Architecture
 
-![Data Pipeline Architecture Diagram](assets/architecture_diagram.png)
+<details>
+  <summary><b>Click to view the Architecture Diagram</b></summary>
+  <img src="assets/architecture_diagram.png" width="800">
+</details>
 
 ### The Modern Data Stack
 * **Extraction (Python):** Custom simulators generate realistic factory JSON telemetry. The `requests` library pulls hourly wholesale energy prices from the German SMARD.de REST API.
@@ -17,10 +20,16 @@ This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahe
 * **Transformation (dbt Core):** Unpacks semi-structured JSON, enforces data quality tests, and models the data into a Kimball Star Schema (Fact and Dimension tables).
 * **Orchestration (Apache Airflow):** Containerized via Astronomer (Astro CLI), Airflow runs the pipeline as a daily micro-batch DAG.
 *The fully green execution graph of the ELT pipeline, showing parallel extraction and sequential loading/testing.*
-![Airflow DAG](assets/airflow_dag.png)
+<details>
+  <summary><b>Click to view the DAG</b></summary>
+  <img src="assets/airflow_dag.png" width="800">
+</details>
 * **Presentation (Snowsight):** Dashboards visualize machine status distribution and continuous energy cost metrics.
 *The final Business Intelligence dashboard tracking Overall Equipment Effectiveness (OEE) against estimated energy costs.*
-![Snowsight Dashboard](assets/snowsight_dashboard.png)
+<details>
+  <summary><b>Click to view the snowsight dashboard</b></summary>
+  <img src="assets/snowsight_dashboard.png" width="800">
+</details>
 
 ## Repository Structure (Monorepo)
 

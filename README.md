@@ -20,7 +20,7 @@ This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahe
 ![Airflow DAG](assets/airflow_dag.png)
 * **Presentation (Snowsight):** Dashboards visualize machine status distribution and continuous energy cost metrics.
 *The final Business Intelligence dashboard tracking Overall Equipment Effectiveness (OEE) against estimated energy costs.*
-![Snowsight Dashboard](assets/snowsight_dashboard.jpg)
+![Snowsight Dashboard](assets/snowsight_dashboard.png)
 
 ## 📂 Repository Structure (Monorepo)
 

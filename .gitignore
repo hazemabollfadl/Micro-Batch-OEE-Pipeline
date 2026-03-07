@@ -12,5 +12,4 @@ include/iiot_transformations/logs/
 **/dbt_packages/
 **/logs/
 
-# Python Extras
 *.pyc

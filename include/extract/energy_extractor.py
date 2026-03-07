@@ -52,6 +52,7 @@ if response.status_code == 200:
 
     # Retrieves a list of timestamps: [[hourly_timestamps, price], etc..]
     data_url = f"https://www.smard.de/app/chart_data/{filter_id}/{region}/{filter_id}_{region}_{resolution}_{nearest_time_stamp}.json"
+
     data_response = requests.get(data_url)
     if data_response.status_code == 200:
         data_response_json = data_response.json()['series']

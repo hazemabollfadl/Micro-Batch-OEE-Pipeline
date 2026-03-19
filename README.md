@@ -46,25 +46,32 @@ Micro-Batch-OEE-Pipeline/
 ├── Dockerfile                      # Astro CLI image configuration
 ├── requirements.txt                # Python dependencies (dbt-snowflake, etc.)
 └── README.md
+```
 
-⚙️ How to Run Locally
+## ⚙️ How to Run Locally
 This project uses the Astronomer CLI to spin up a local Airflow environment via Docker.
 
-1. Clone the repository:
-git clone [https://github.com/hazemabollfadl/Micro-Batch-OEE-Pipeline.git](https://github.com/your-hazemabollfadl/Micro-Batch-OEE-Pipeline.git)
+### 1. Clone the repository:
+```text
+git clone https://github.com/your-hazemabollfadl/Micro-Batch-OEE-Pipeline.git
 cd Micro-Batch-OEE-Pipeline
+```
 
-2. Configure your Snowflake Credentials:
-Create a .env file in the root directory and add your Snowflake trial credentials:
+### 2. Configure your Snowflake Credentials:
+Create a ```.env``` file in the root directory and add your Snowflake trial credentials:
+```text
 SNOWFLAKE_ACCOUNT=your_account_locator
 SNOWFLAKE_USER=your_username
 SNOWFLAKE_PASSWORD=your_password
 SNOWFLAKE_DATABASE=IIOT_FACTORY
 SNOWFLAKE_SCHEMA=RAW
+```
 
-3. Start the Airflow Cluster:
+### 3. Start the Airflow Cluster:
 Ensure Docker is running (OrbStack recommended for Apple Silicon), then run:
+```text
 astro dev start
+```
 
-4. Trigger the Pipeline:
+### 4. Trigger the Pipeline:
 Navigate to http://localhost:8080 (default credentials: admin / admin). Unpause the iiot_data_pipeline DAG and trigger it manually to watch the ELT process execute!

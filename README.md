@@ -1,40 +1,41 @@
 # Industrial IoT & Telemetry Pipeline (Micro-Batch OEE)
 
-An end-to-end, containerized ELT pipeline designed to simulate factory floor machine telemetry, ingest external API energy market data, and model the financial impact of dynamic power grids on Overall Equipment Effectiveness (OEE).
+This is a local ELT pipeline built to track how much money factory machines cost to run based on real-time German energy prices.
 
-## Business Case
-In modern Industry 4.0 environments, calculating OEE is standard. However, in regions with fluctuating energy markets (like Germany), machine downtime isn't just a loss of production—running power-heavy machines during peak grid pricing drastically reduces profit margins. 
+In manufacturing, Overall Equipment Effectiveness (OEE) is a standard metric, but running power-heavy machines during peak grid pricing can ruin profit margins. This project simulates high-frequency machine telemetry, ingests hourly Day-Ahead wholesale electricity prices from the SMARD.de API, and joins them in a Snowflake Star Schema to calculate the real-time financial impact of machine downtime.
 
-This pipeline ingests high-frequency machine telemetry and joins it with Day-Ahead wholesale electricity prices to provide a real-time view of estimated energy costs per machine event.
-
-## Architecture
+## System Architecture
 
 <details>
   <summary><b>Click to view the Architecture Diagram</b></summary>
   <img src="assets/architecture_diagram.png" width="800">
 </details>
 
-### The Modern Data Stack
-* **Extraction (Python):** Custom simulators generate realistic factory JSON telemetry. The `requests` library pulls hourly wholesale energy prices from the German SMARD.de REST API.
-* **Storage (Snowflake):** Acts as the single-source-of-truth data warehouse. Raw JSON is loaded directly into `VARIANT` columns via the `snowflake-connector-python`.
-* **Transformation (dbt Core):** Unpacks semi-structured JSON, enforces data quality tests, and models the data into a Kimball Star Schema (Fact and Dimension tables).
-* **Orchestration (Apache Airflow):** Containerized via Astronomer (Astro CLI), Airflow runs the pipeline as a daily micro-batch DAG.
-*The fully green execution graph of the ELT pipeline, showing parallel extraction and sequential loading/testing.*
+* **Data Generation & Ingestion (Python):** Custom simulators generate realistic factory JSON telemetry. The `requests` library fetches live wholesale energy prices via REST API.
+* **Data Warehouse (Snowflake):** Acts as the single-source-of-truth data warehouse. Raw JSON is loaded directly into `VARIANT` columns via the `snowflake-connector-python`.
+* **Transformation & Modeling (dbt Core):** Unpacks semi-structured JSON, enforces data quality tests, and models the data into a Kimball Star Schema (Fact and Dimension tables).
+* **Orchestration (Apache Airflow):** Containerized using the Astro CLI, Airflow runs the pipeline as a daily micro-batch DAG, handling parallel extraction and sequential loading.
 
 <details>
   <summary><b>Click to view the DAG</b></summary>
   <img src="assets/airflow_dag.png" width="800">
 </details>
 
-* **Presentation (Snowsight):** Dashboards visualize machine status distribution and continuous energy cost metrics.
-*The final Business Intelligence dashboard tracking Overall Equipment Effectiveness (OEE) against estimated energy costs.*
+* **Visualization (Snowsight):** A custom dashboard tracking machine status distribution and continuous energy cost metrics.
 
 <details>
   <summary><b>Click to view the snowsight dashboard</b></summary>
   <img src="assets/snowsight_dashboard.png" width="800">
 </details>
 
-## Repository Structure (Monorepo)
+## Technical Focus & Challenges Solved
+* **Handling Semi-Structured Data:** Built robust dbt models to flatten nested JSON telemetry without losing data integrity.
+
+* **Idempotent Pipelines:** Ensured Airflow tasks are fully idempotent, meaning the DAG can be rerun for past dates without creating duplicate records in Snowflake.
+
+* **Data Quality:** Implemented automated dbt testing to catch missing telemetry or failed API responses before they reach the BI layer.
+
+## Repository Structure
 
 ```text
 Micro-Batch-OEE-Pipeline/
